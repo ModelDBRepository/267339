@@ -1,0 +1,20 @@
+<ns1:ExD xmlns:ns1="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig">
+  <ns1:name>SNNInhibitoryModelRecall</ns1:name>
+  <ns1:thumbnail>ExDTemplateHusky.jpg</ns1:thumbnail>
+  <ns1:description>This experiment loads the Husky robot in an empty world, with an idle brain and basic transfer functions. You are free to edit it.</ns1:description>
+  <ns1:tags>template husky robotics empty</ns1:tags>
+  <ns1:timeout>840.0</ns1:timeout>
+  <ns1:configuration src="ExDTemplateHusky.ini" type="3d-settings"/>
+  <ns1:configuration src="brainvisualizer.json" type="brainvisualizer"/>
+  <ns1:configuration src="ExDTemplateHusky.uis" type="user-interaction-settings"/>
+  <ns1:maturity>production</ns1:maturity>
+  <ns1:environmentModel src="empty_world.sdf">
+    <ns1:robotPose pitch="3.81476183975e-06" robotId="husky" roll="3.37898527505e-05" x="10.0" y="0.0" yaw="0.000260014028754" z="0.166999995708"/>
+  </ns1:environmentModel>
+  <ns1:bibiConf src="bibi_configuration.bibi"/>
+  <ns1:cameraPose>
+    <ns1:cameraPosition x="4.5" y="0.0" z="1.8"/>
+    <ns1:cameraLookAt x="0.0" y="0.0" z="0.6"/>
+  </ns1:cameraPose>
+  <ns1:cloneDate>2021-05-05T15:25:25</ns1:cloneDate>
+</ns1:ExD>
